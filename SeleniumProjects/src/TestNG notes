@@ -1,0 +1,65 @@
+test NG -unit test framework for java 
+Agile---TDD framework test driven framework
+
+purpose/advantages--
+design test cases in a systematic way
+html report
+different annotations
+priority
+dependency
+grouping 
+data provider
+
+test NG is open source -free
+
+install test NG in eclipse
+
+priorities of annotations
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test 
+@AfterMethod
+@BeforeMethod
+@Test  if multiple test cases are there
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+we can set priority 
+we can set group
+
+@Test(priority=1)
+@Test(group="login")
+
+@Test(DependsOnMethod="login test")----if one is dependedent on some another test and that fails this test won't run.
+
+@Test(invocationCount=2)-- if we want to run a program multiple times
+
+@Test(invocationTimeOut=2)--it will stop executing in 2 miliseconds.
+
+@Test(expectedException=numberFormatException.class) --if an exception is expected, then also it will pass the test case.
+without try catch we can handle exception by expectedException keyword of TestNG.
+
+Assert class has many methods to compare expected and actual values.
+
+we create a template filew for TestNG
+testng.xml
+a format is there
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

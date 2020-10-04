@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG suite">
+<test name="testNG practice">
+<classes>
+<class name="testNGexamples.day1TestNG" />
+<class name="testNGexamples.GoogleTest" />
+
+
+</classes>
+
+</test>
+</suite>
