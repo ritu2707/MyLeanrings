@@ -19,7 +19,7 @@ public class practice1 {
      System.out.println(list2);
      
      //use of further map method to find the square of the numbers of the list2
-     List<Integer> squareList= list2.stream().map(name->name*name).collect(Collectors.toList());
+     List<Integer> squareList= list2.stream().map(n->n*n).collect(Collectors.toList());
      System.out.println(squareList);
     // List<Integer> squareList2= list2.stream().map(name->name*name).forEach(s->System.out.println(s));
      

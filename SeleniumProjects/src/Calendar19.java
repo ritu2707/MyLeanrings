@@ -20,7 +20,7 @@ public class Calendar19 {
 		//login
 		//save the date want to be selected in form of String array 
 		String date="18-Sptember-2020";
-		String datearr[]= date.split(date);
+		String datearr[]= date.split("-");
 		String day= datearr[0];
 		String month=datearr[1];
 		String year=datearr[2];

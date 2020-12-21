@@ -5,6 +5,7 @@ public class Day12ConstructorConcept {
 	//Constructor can be overloaded
 	//it does not return value
 	//be default a hidden constructor is already there so whenever we create a object default constructor will be called.
+	//if we have created parameterised constructor ,JVM doesnot create by default constructor
 	public Day12ConstructorConcept()
 	{
 		System.out.println("default constructor");

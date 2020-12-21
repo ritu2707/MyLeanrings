@@ -11,7 +11,7 @@ public class WebdriverBasics1 {
 		
 		//System.setProperty("webdriver.gecko.driver", "//C:\\Users\\Hp\\Downloads\\geckodriver-v0.26.0-win64.exe");
 		//WebDriver driver= new FirefoxDriver();
-		System.setProperty("webdriver.chrome.driver", "//C:\\Users\\Hp\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "//C:\\Users\\Hp\\OneDrive\\Documents\\Selenium_automation\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com");
 		String title= driver.getTitle();

@@ -10,6 +10,7 @@ public class Factorial4 {
 	public static void factorial(int num)
 	{
 		int fact=0;
+		
 		while(num>0)
 		{
 	     fact=num*(num-1);
